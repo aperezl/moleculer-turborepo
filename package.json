@@ -7,19 +7,27 @@
     "packages/*"
   ],
   "scripts": {
+    "start": "turbo run start",
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@types/jest": "^29.2.0",
+    "@types/node": "^18.11.7",
     "eslint-config-custom": "*",
     "prettier": "latest",
+    "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0",
     "turbo": "latest"
   },
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "moleculer": "^0.14.24",
+    "ts-node": "^10.9.1"
+  },
   "packageManager": "npm@8.15.0"
 }

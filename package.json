@@ -9,6 +9,7 @@
   "scripts": {
     "start": "turbo run start",
     "build": "turbo run build",
+    "build:watch": "turbo run build -- --watch",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
@@ -20,6 +21,7 @@
     "prettier": "latest",
     "ts-jest": "^29.0.3",
     "ts-node-dev": "^2.0.0",
+    "tsconfig": "*",
     "turbo": "latest"
   },
   "engines": {
@@ -27,6 +29,7 @@
   },
   "dependencies": {
     "moleculer": "^0.14.24",
+    "moleculer-repl": "^0.7.3",
     "ts-node": "^10.9.1"
   },
   "packageManager": "npm@8.15.0"

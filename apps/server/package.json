@@ -13,6 +13,8 @@
   "license": "ISC",
   "dependencies": {
     "apigateway": "*",
-    "hello": "*"
+    "hello": "*",
+    "users": "*",
+    "articles": "*"
   }
 }

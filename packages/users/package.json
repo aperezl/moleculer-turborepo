@@ -1,5 +1,5 @@
 {
-  "name": "hello",
+  "name": "users",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "tsconfig": "*"
+  },
+  "dependencies": {
+    "fakerator": "^0.3.6",
+    "moleculer-db": "^0.8.19"
   }
 }

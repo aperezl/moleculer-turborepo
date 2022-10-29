@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "moleculer-web": "^0.10.4"
+  },
+  "devDependencies": {
+    "tsconfig": "*"
   }
 }

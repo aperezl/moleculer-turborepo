@@ -31,4 +31,5 @@ RUN npx turbo run build --filter=server...
 FROM node:alpine AS runner
 WORKDIR /app
 COPY --from=installer /app .
-CMD ls apps/server
+EXPOSE 4000
+CMD node apps/server/dist/index.js

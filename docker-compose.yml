@@ -10,7 +10,7 @@ services:
       - NODE_ENV=production
     restart: always
     ports:
-      - 3001:3001
+      - 4000:4000
     networks:
       - app_network
 

@@ -1,0 +1,12 @@
+@hostname = http://localhost:4000
+# @hostname = https://server-aperezl.cloud.okteto.net
+
+
+GET {{hostname}}/math/4/5
+###
+
+GET {{hostname}}/api/articles
+###
+
+GET {{hostname}}/api/users
+###

@@ -12,6 +12,7 @@ broker.createService(Hello)
 broker.createService(Users)
 broker.createService(Articles)
 
+broker.repl()
 broker
   .start()
   .then(() => broker.call('math.add', { a: 5, b: 3 }))

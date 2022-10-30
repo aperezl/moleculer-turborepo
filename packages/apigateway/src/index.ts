@@ -18,7 +18,8 @@ const ApiGateway:ServiceSchema = {
         mappingPolicy: 'restrict',
         aliases: {
           // Users aliases
-          'REST users': 'users',
+          // 'REST users': 'users',
+          'POST users': 'users.createUser',
 
           // Articles aliases
           'PUT articles/:id/vote': 'articles.vote',

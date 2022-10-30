@@ -5,8 +5,17 @@
 GET {{hostname}}/math/4/5
 ###
 
-GET {{hostname}}/api/articles
+GET {{hostname}}/api/articles/2Bj7jf9emeaObcf4
 ###
 
 GET {{hostname}}/api/users
 ###
+
+POST {{hostname}}/api/users
+Content-Type: application/json
+
+{
+  "username": "user1",
+  "password": "1234",
+  "email": "user1@example.com"
+}

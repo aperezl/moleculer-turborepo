@@ -11,10 +11,12 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/jsonwebtoken": "^8.5.9",
     "tsconfig": "*"
   },
   "dependencies": {
     "fakerator": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
     "moleculer-db": "^0.8.19"
   }
 }

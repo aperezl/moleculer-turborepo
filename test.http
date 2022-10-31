@@ -19,3 +19,11 @@ Content-Type: application/json
   "password": "1234",
   "email": "user1@example.com"
 }
+###
+POST {{hostname}}/api/login
+Content-Type: application/json
+
+{
+  "email": "user1@example.com",
+  "passwrod": "1234"
+}

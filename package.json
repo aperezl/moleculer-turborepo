@@ -15,6 +15,7 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
     "@types/jest": "^29.2.0",
     "@types/node": "^18.11.7",
     "eslint-config-custom": "*",
@@ -28,6 +29,7 @@
     "node": ">=14.0.0"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "moleculer": "^0.14.24",
     "moleculer-repl": "^0.7.3",
     "ts-node": "^10.9.1"

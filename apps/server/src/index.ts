@@ -35,5 +35,5 @@ broker.createService(Articles);
 broker
   .start()
   .then(() => broker.call("math.add", { a: 5, b: 3 }))
-  .then((res) => console.log("5 + 3 =", res))
+  .then((res) => console.log("5 + 4 =", res))
   .catch((err) => console.error(`Error occured! ${err.message}`));
